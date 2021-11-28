@@ -23,19 +23,19 @@ Ce jeu est conçu pour marcher sur plusieurs taille d'écran, mais pour une meil
 Voici les différentes étapes de l'installation du programme :
 
 - Sur Git, télécharger en zip _(Code -> Download ZIP)_
-- Placer le dossier EscapeGameOdysseeLubinVincent à la racine de votre répertoire localhost (pour MAMP, vérifier l'adresse dans les préférences, pour Wamp, placer le fichier dans ``C:\wamp64\www``)
+- Placer le dossier EscapeGameOdysseeLubinVincent-main à la racine de votre répertoire localhost (pour MAMP, vérifier l'adresse dans les préférences, pour Wamp, placer le fichier dans ``C:\wamp64\www``)
 - Dans votre navigateur internet entrer ``localhost/phpMyAdmin``. Si vous n'avez jamais changé la configuration, l'user est root, sans mot de passe. 
 - Cliquer sur nouvelle base de donnée, appeler la odyssee.
 - Cliquer sur importer, puis choisir le fichier BD_Odyssee.sql présent dans le répertoire. Choisir utf-8.
 - ATTENTION Si vous avez changé la configuration de phpMyAdmin, entrez vos identifiants habituels, mais cela nécessite la modification du code du jeu suivante :\
-Ouvrir le fichier **objet.php** (``EscapeGameOdysseeLubinVincent\php\connect.php``) à l'aide d'un éditeur de texte, et modifier dans la 2ème ligne root par votre username, et entrer votre mot-de-passe dans les '' vide.\
+Ouvrir le fichier **objet.php** (``EscapeGameOdysseeLubinVincent-main\php\connect.php``) à l'aide d'un éditeur de texte, et modifier dans la 2ème ligne root par votre username, et entrer votre mot-de-passe dans les '' vide.\
 _$link = mysqli_connect('localhost', '**votre user**', '**votre mdp**', 'odyssee');_
 
 - Le jeu est prêt à être lancé !
 
 ## Démarrage
 
-Pour lancer le jeu, taper dans votre navigateur ``localhost/EscapeGameOdysseeLubinVincent``. Une fois sur la page d'accueil, cliquer simplement sur jouer. Bon jeu ! 
+Pour lancer le jeu, taper dans votre navigateur ``localhost/EscapeGameOdysseeLubinVincent-main``. Une fois sur la page d'accueil, cliquer simplement sur jouer. Bon jeu ! 
 
 ## Fabriqué avec
 
